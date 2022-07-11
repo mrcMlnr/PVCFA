@@ -2,7 +2,7 @@ import chess.engine
 import math
 from chess import Status
 
-DEPTH = 16
+DEPTH = 20
 DEPTH__BOUND = chess.engine.Limit(depth=DEPTH)
 MULTI__PV = 1
 POINT__OF__VIEW = 1

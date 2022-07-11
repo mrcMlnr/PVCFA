@@ -10,32 +10,25 @@ else:
     print("Directory ", path, " already exists")
 
 ### 102 puzzles in total
-for puzzle_n, puzzle in enumerate(puzzlesDictionary['puzzles'][:1]): # [:34], [34:68], [68:]
+for puzzle_n, puzzle in enumerate(puzzlesDictionary['puzzles'][:]): # [:34], [34:68], [68:]
 
     myFEN = puzzle['fen']
     simplifiedFEN = "".join(myFEN.replace("/",".").split())
-
+    print("########### STARTING FEN: ", myFEN)
 
     myBoard = ChessBoard(myFEN)
 
-    myBoard.executionRoutine()
+    myBoard.setupRoutine()
+    myBoard.calculationRoutine()
 
     myAnalysis = Analysis(myBoard.board, myBoard.pieces, myBoard.pvMoveList)
-    # print("BLE")
+
     myAnalysis.setupPiecesMinMaxValues()
-    # print("CIAO")
+
     myAnalysis.representPerturbationValues(puzzle_n)
 
-    # svg_board = chess.svg.board(myBoard.board)
-    # board_png = cairosvg.svg2png(svg_board)
-    # board_image = Image.open(BytesIO(board_png))
-    #
-    # board_png.paste(sigmarhotau_overlay_image, (0, 0), sigmarhotau_overlay_image).save(path+simplifiedFEN+".png")
-
-    # print("BELLA")
-    # base_board_png = returnConvertedBoardToPNG(myAnalysis.board, path)
-
-    # FEN_name = simplifiedFEN
-    # join2PNG(FEN_name, base_board_png, sigmarhotau_overlay_png, path)
+    myAnalysis.plotAllGraphsFAN2(myAnalysis.saliencyLists, myAnalysis.specificityLists,
+                                 myAnalysis.relevanceLists, myAnalysis.perspectiveLists,
+                                 puzzle_n)
 
     engine.close()
