@@ -5,10 +5,8 @@ The research and development field of computer chess improved more in the last 5
 
 ## Result examples
 
-![alt text](![image](https://github.com/mrcMlnr/PVCFA/blob/master/results/0.2r2rk1.pp1bqpp1.2nppn1p.2p3N1.1bP5.1PN3P1.PBQPPPBP.3R1RK1w--01c3d5.e6d5.b2f6.h6g5.f6e7.c6e7.png) "Logo Title Text 1")
+![Sample](results/0.2r2rk1.pp1bqpp1.2nppn1p.2p3N1.1bP5.1PN3P1.PBQPPPBP.3R1RK1w--01c3d5.e6d5.b2f6.h6g5.f6e7.c6e7.png)
 
-![alt text](![image](https://user-images.githubusercontent.com/79941829/184558025-bec1586c-14e5-426a-bd6e-25028b620e02.png) "Logo Title Text 1")
+![Sample](results/1.r2qrbk1.1bp2ppp.p2p1n2.2p2NB1.4P3.2N2Q2.PPP2PPP.R3R1K1w--01f5h6.g7h6.g5f6.d8f6.f3f6.f8g7.png)
 
-![alt text](![image](https://user-images.githubusercontent.com/79941829/184558032-796b0eee-be07-4ed7-9313-7f51f87a4d8a.png) "Logo Title Text 1")
-
-
+![Sample](results/10.4r1k1.pp1rBp1p.5Qp1.3q4.8.2P4P.3nRPP1.4R1K1w--01f6h8.g8h8.e7f6.h8g8.e2e8.png)
