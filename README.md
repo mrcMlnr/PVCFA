@@ -11,8 +11,12 @@ Consult the folder 'results' for all the solution for the proposed database of p
 
 ![Sample](results/0.2r2rk1.pp1bqpp1.2nppn1p.2p3N1.1bP5.1PN3P1.PBQPPPBP.3R1RK1w--01c3d5.e6d5.b2f6.h6g5.f6e7.c6e7.png)
 
+![Sample](results/0.2r2rk1.pp1bqpp1.2nppn1p.2p3N1.1bP5.1PN3P1.PBQPPPBP.3R1RK1w--01_GRAPHS.png)
+
 ![Sample](results/1.r2qrbk1.1bp2ppp.p2p1n2.2p2NB1.4P3.2N2Q2.PPP2PPP.R3R1K1w--01f5h6.g7h6.g5f6.d8f6.f3f6.f8g7.png)
+
+![Sample](results/1.r2qrbk1.1bp2ppp.p2p1n2.2p2NB1.4P3.2N2Q2.PPP2PPP.R3R1K1w--01_GRAPHS.png)
 
 ![Sample](results/10.4r1k1.pp1rBp1p.5Qp1.3q4.8.2P4P.3nRPP1.4R1K1w--01f6h8.g8h8.e7f6.h8g8.e2e8.png)
 
-
+![Sample](results/10.4r1k1.pp1rBp1p.5Qp1.3q4.8.2P4P.3nRPP1.4R1K1w--01_GRAPHS.png)
